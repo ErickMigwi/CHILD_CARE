@@ -1,0 +1,45 @@
+#devMain{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#heading{
+    color: royalblue;
+    font-family: 'Lora';
+    font-size: 2rem;
+}
+#childdevelopment{
+    padding-top: 2%;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+#setToGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%) ;
+    justify-content: center;
+    grid-row-gap: 3%;
+    grid-column-gap: 3%;
+}
+#setToGrid img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    height: 300px;
+    border: 2px solid royalblue;
+}
+#setToGrid p{
+    font-family: 'Lora';
+    font-size: 1.5rem;
+    color: royalblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#setToGrid img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,276 @@
+#sliderimg{
+    width: 100%;
+    height: 81.3vh;
+    object-fit: fill;
+}
+#homeDetails{
+    display: flex;
+    flex-direction: column;
+    height: 81.3vh;
+    justify-content: center;
+}
+#pdetails{
+ z-index: 1;
+ position: relative;
+ color:#4D6BAA;
+ font-size: 3rem;
+ font-weight: bolder;
+ padding: 10px;
+ width: 50%;
+ height: auto;
+}
+#homeDetailsbutton{
+ z-index: 1000;
+ position: relative;
+ background-color: #F03F35;
+ color: white;
+ border: none;
+ width: 20vw;
+ padding: 15px;
+ margin-left: 10px;
+ border-radius: 15px;
+ font-size: 1.2rem;
+}
+#homeDetails img{
+    position: absolute;
+    z-index: 0;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#next{
+    z-index: 1;
+ position: relative;
+ color:rgba(18, 20, 20, 0.5);
+ font-size: 3.5rem;
+ font-weight: bolder;
+ padding: 20px;
+ border: none;
+ background: none;
+}
+#next:hover{
+    color: red;
+    cursor: pointer;
+}
+#section2{
+    width: 100%;
+    padding-top: 1%;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    height: fit-content;
+  
+
+}
+#section2_1{
+    width:50%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0, 0.3);    
+    gap: 15px;
+    height: fit-content;
+ }
+#section2_2{
+   width: 30%;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+#sectionimg{
+    width: 100%;
+    max-width: 100%;
+    object-fit: fill;
+    max-height: 100%;
+    height: 70vh;
+}
+#sectionHeading{
+    color: #4169E1;
+    font-size: 2.5rem;  
+    font-weight: 700;
+}
+#sectionDetails{
+    font-size: 1.2rem;
+    font-weight: 100;
+   
+    line-height: 40px;
+}
+#mainHome{
+    overflow-x: hidden;
+}
+
+li::marker{
+    color: green;
+    font-size: 1.5rem;
+}
+#ul li{
+    font-size: 1.2rem;
+}
+#highlights{
+    color:#EF8742;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#webDesc{
+    font-size: 1.3rem;
+    line-height: 40px;
+}
+#section3{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    width: 100%;
+    grid-column-gap: 2%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+#abouttheapp img{
+    width: 100%;
+    object-fit: fill;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+#abouttheapp p{
+    background-color: white;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 30vh;
+    line-height: 40px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+#abouttheapp button{
+ background-color: #F03F35;
+ color: white;
+ font-size: 1rem;
+ padding: 5px;
+ border: none;
+ border-radius: 15px;
+}
+#abouttheapp button:hover{
+    background-color: royalblue;
+}
+#footer{
+    background-color: #1C8DB9;
+}
+#footerBtn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+}
+#footerBtn button{
+    background: none;
+    border:none;
+    font-size: 1.3rem;
+    color: white;
+}
+#footerBtn button:hover{
+    color: #004C69;
+}
+#copyright{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+#copyright p{
+    font-size: 1.3rem;
+    color: white;
+}
+@media screen and (max-width:768px) {
+    #sliderimg{
+        height:50vh;
+    }
+    #homeDetails{
+        height: 50vh;
+    }
+    #pdetails{
+        font-size: 1.3rem;
+    }
+    #next{
+        color: royalblue;
+        font-size: 1.5rem;
+    }
+    #homeDetailsbutton{
+        width: 150px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    #sectionHeading{
+        font-size: 1.3rem;
+    }
+    #sectionDetails{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    #section2_1{
+        width: 100%;
+        padding: 10px;
+        padding-left: 10px;
+    }
+    #section2{
+        justify-content:space-between;
+        padding-top: 20px;
+    }
+    li::marker{
+        color: green;
+        font-size: 1rem;
+    }
+    #ul li{
+        font-size: 1rem;
+    }
+    #sectionimg{
+        display: none;
+    }
+    #highlights{
+        font-size: 1.3rem;
+    }
+    #infant{
+        display: none;
+    }
+    #webDesc{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    #abouttheapp p{
+        height: auto;
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+    #abouttheapp button{
+        font-size: 1rem;
+        padding: 2px;
+    }
+    #abouttheapp img{
+        height: 20vh;
+    }
+    #footerBtn{
+        gap: 4px;
+        padding: 2px;
+    }
+    #footerBtn button{
+        font-size: 0.53rem;
+    }
+    #copyright{
+    padding: 10px;
+    }
+    #copyright p{
+        font-size: 0.9rem;
+        width: 10vw;
+    }
+}

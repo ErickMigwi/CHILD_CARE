@@ -1,0 +1,116 @@
+#mainsignup{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#createanacc{
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: royalblue;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#childDet{
+    font-size: 1.5rem;
+    font-family: 'Lora';
+}
+#createanacc p{
+    margin-top: 10px;
+}
+#childDetails{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#childDetails p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#childDetails input{
+    font-size: 1rem;
+    padding: 3px;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+}
+#childDetails textarea{
+    font-size: 1rem;
+    padding: 3px;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+}
+#childDetails button{
+    margin-top: 10px;
+    background-color: royalblue;
+    color: white;
+    width: 25vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 5vh;
+    padding: 10px;
+}
+#editImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#editImage input{
+    font-size: 1rem;
+    padding: 3px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+}
+#editImage button{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1vh;
+    padding: 5px;
+}
+@media screen and (max-width:768px) {
+   #createanacc{
+    font-size: 1rem;
+   } 
+   #childDetails p{
+    font-size: 1rem;
+    
+   }
+   #childDetails input{
+    width: 200px;
+    padding: 3px;
+    height: 20px;
+    font-size: 0.7rem;
+   }
+   #childDetails textarea{
+    width: 200px;
+    padding: 3px;
+    height: 20px;
+    font-size: 0.7rem;
+   }
+   #childDetails button{
+    font-size: 1rem;
+    width: 200px;
+   }
+}

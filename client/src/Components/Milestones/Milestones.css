@@ -1,0 +1,25 @@
+#milestone{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#milestone p{
+    font-size: 1.5rem;
+    color: royalblue;
+    font-family: 'Lora';
+    padding: 10px;
+
+}
+#milestone button{
+    background-color: royalblue;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 15px;
+
+}

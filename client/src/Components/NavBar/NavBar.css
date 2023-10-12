@@ -1,0 +1,152 @@
+#logo{
+    width: 5%;
+    height: 10vh;
+}
+#mainNav{
+   display: flex;
+   align-items: center;
+    height: auto;
+    padding: 10px;
+    justify-content: space-between;
+    animation: navBaranimation 2s
+}
+#projectTitle{
+    font-size: 3rem;
+    color:white;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+#navBar1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#childrenzone{
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    color: #FFE03F;
+    font-weight: 700;
+    
+}
+#home{
+    background-color: #D4DE6D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}#about{
+    background-color: #F6B63A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#ourprograms{
+    background-color: #F03F35;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}#login{
+    background-color: #4D6BAA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#contact{
+    background-color: #7ED6D3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#navBar2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#bars{
+    display: none;
+}
+#opts{
+    display: none;
+}
+/* responsiveness */
+@media screen and (max-width: 786px) {
+  #projectTitle{
+    font-size: 1.2rem;
+  }
+  #childrenzone{
+    font-size: 0.7rem;
+  }
+  #home{
+    display: none;
+  }#about{
+    display: none;
+  }
+  #ourprograms{
+    display: none;
+  }
+  #login{
+    display: none;
+  }#contact{
+    display: none;
+  }
+  #bars{
+    display: flex;
+    background: none;
+    border: none;
+  }
+  .bars{
+    color: white;
+    font-size: 1rem;
+  }
+  #mainNav{
+    height: inherit;
+    animation: navBaranimation 2s
+  }
+  #opts{
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    height: auto;
+    position: absolute;
+    background-color: rgb(65, 105, 225,0.8);
+    padding: 10px;
+    width: 20vh;
+    margin-top: 25vh;
+    left: 0;
+    margin-left: 22vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    border-radius: 10px;
+  }
+  #opts button{
+    background: none;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 2px;
+    color: white;
+  }
+
+    }
+    @keyframes navBaranimation {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
